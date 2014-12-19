@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'ATKColor', :exclusive => true do
+  pod "ATKColor", :path => "../"
+
+  
+end
