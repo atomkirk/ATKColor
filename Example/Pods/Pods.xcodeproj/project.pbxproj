@@ -11,7 +11,7 @@
 		4169B1FF50D3D6E669506A9F /* Pods-ATKColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DF28AA9F61C8ED4712D2D3 /* Pods-ATKColor-dummy.m */; };
 		4EA5441B06A52294C557D3C8 /* Pods-ATKColor-ATKColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7A6954F9C20E0740E5F6B6 /* Pods-ATKColor-ATKColor-dummy.m */; };
 		4F74502BBD4305F0233FE3F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA3485098844C00C1C4E12D /* Foundation.framework */; };
-		C2F491C81A43C39D005B1F6B /* ATKColor+RGBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F491C71A43C39D005B1F6B /* ATKColor+RGBHex.m */; };
+		C2F491CB1A43C74E005B1F6B /* ATKColor+RGBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F491CA1A43C74E005B1F6B /* ATKColor+RGBHex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,8 @@
 		86DF28AA9F61C8ED4712D2D3 /* Pods-ATKColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATKColor-dummy.m"; sourceTree = "<group>"; };
 		8DA3485098844C00C1C4E12D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9E7A6954F9C20E0740E5F6B6 /* Pods-ATKColor-ATKColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATKColor-ATKColor-dummy.m"; sourceTree = "<group>"; };
-		C2F491C61A43C39D005B1F6B /* ATKColor+RGBHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ATKColor+RGBHex.h"; sourceTree = "<group>"; };
-		C2F491C71A43C39D005B1F6B /* ATKColor+RGBHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ATKColor+RGBHex.m"; sourceTree = "<group>"; };
+		C2F491C91A43C74E005B1F6B /* ATKColor+RGBHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ATKColor+RGBHex.h"; path = "Pod/Classes/ATKColor+RGBHex.h"; sourceTree = "<group>"; };
+		C2F491CA1A43C74E005B1F6B /* ATKColor+RGBHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ATKColor+RGBHex.m"; path = "Pod/Classes/ATKColor+RGBHex.m"; sourceTree = "<group>"; };
 		D3F2927B557CA53DD437D02E /* libPods-ATKColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATKColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2C00730AD7E7867BF90E90 /* libPods-ATKColor-ATKColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATKColor-ATKColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0837CC05504B5FC5FA7A8AE /* Pods-ATKColor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATKColor-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -162,8 +162,8 @@
 		EB20287ABEDE733ECC7E0175 /* ATKColor */ = {
 			isa = PBXGroup;
 			children = (
-				C2F491C61A43C39D005B1F6B /* ATKColor+RGBHex.h */,
-				C2F491C71A43C39D005B1F6B /* ATKColor+RGBHex.m */,
+				C2F491C91A43C74E005B1F6B /* ATKColor+RGBHex.h */,
+				C2F491CA1A43C74E005B1F6B /* ATKColor+RGBHex.m */,
 				26732F32A2E975C9E227648B /* Support Files */,
 			);
 			name = ATKColor;
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F491C81A43C39D005B1F6B /* ATKColor+RGBHex.m in Sources */,
+				C2F491CB1A43C74E005B1F6B /* ATKColor+RGBHex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
