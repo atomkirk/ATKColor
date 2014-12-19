@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B97A4CEA745FE49804F0796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA3485098844C00C1C4E12D /* Foundation.framework */; };
+		4169B1FF50D3D6E669506A9F /* Pods-ATKColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DF28AA9F61C8ED4712D2D3 /* Pods-ATKColor-dummy.m */; };
+		4EA5441B06A52294C557D3C8 /* Pods-ATKColor-ATKColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7A6954F9C20E0740E5F6B6 /* Pods-ATKColor-ATKColor-dummy.m */; };
+		4F74502BBD4305F0233FE3F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA3485098844C00C1C4E12D /* Foundation.framework */; };
+		C2F491C81A43C39D005B1F6B /* ATKColor+RGBHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F491C71A43C39D005B1F6B /* ATKColor+RGBHex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01B624542150AE38D34737C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FC5BED679A69566DE369E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DF8090CD6EF27F815AD500A;
+			remoteInfo = "Pods-ATKColor-ATKColor";
+		};
+		C6DCC7470F71F256B5099884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FC5BED679A69566DE369E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8843612396408FB6805DEDB3;
+			remoteInfo = ATKColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0891F997F0EFAB5F7DB4DD36 /* Pods-ATKColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATKColor.debug.xcconfig"; sourceTree = "<group>"; };
+		130AC58BDC301451B0C2F0BB /* Pods-ATKColor-ATKColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATKColor-ATKColor.xcconfig"; sourceTree = "<group>"; };
+		1B03BCADA40AE6A1D6AFA3B9 /* Pods-ATKColor-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATKColor-environment.h"; sourceTree = "<group>"; };
+		36567B34873CE195B30D0F6D /* ATKColor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATKColor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BCC698945DE920D61192C1 /* Pods-ATKColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATKColor.release.xcconfig"; sourceTree = "<group>"; };
+		652D4D402D6E7F23D3BD93EE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		719780F7D1BC3A4B0A60A677 /* Pods-ATKColor-ATKColor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATKColor-ATKColor-Private.xcconfig"; sourceTree = "<group>"; };
+		744A4821338F8EC35810D308 /* Pods-ATKColor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATKColor-resources.sh"; sourceTree = "<group>"; };
+		75AE996481E4CB208325E9BF /* Pods-ATKColor-ATKColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATKColor-ATKColor-prefix.pch"; sourceTree = "<group>"; };
+		86DF28AA9F61C8ED4712D2D3 /* Pods-ATKColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATKColor-dummy.m"; sourceTree = "<group>"; };
+		8DA3485098844C00C1C4E12D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9E7A6954F9C20E0740E5F6B6 /* Pods-ATKColor-ATKColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATKColor-ATKColor-dummy.m"; sourceTree = "<group>"; };
+		C2F491C61A43C39D005B1F6B /* ATKColor+RGBHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ATKColor+RGBHex.h"; sourceTree = "<group>"; };
+		C2F491C71A43C39D005B1F6B /* ATKColor+RGBHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ATKColor+RGBHex.m"; sourceTree = "<group>"; };
+		D3F2927B557CA53DD437D02E /* libPods-ATKColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATKColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2C00730AD7E7867BF90E90 /* libPods-ATKColor-ATKColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATKColor-ATKColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0837CC05504B5FC5FA7A8AE /* Pods-ATKColor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATKColor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E31110C64F49C55BB8A997E5 /* Pods-ATKColor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATKColor-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450FA8F1B68C0CE73288AC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD649A41BF198A8D70A38B1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F74502BBD4305F0233FE3F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B482125801E4E89E6F701D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B97A4CEA745FE49804F0796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DEFF404A7F3AC7E753953C = {
+			isa = PBXGroup;
+			children = (
+				652D4D402D6E7F23D3BD93EE /* Podfile */,
+				58B27EC068985F44939EF507 /* Development Pods */,
+				40AC466CE5F7FEA0A985B113 /* Frameworks */,
+				40A71C5B04C030046861E908 /* Products */,
+				DE89008E18F5707B116D0744 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		26732F32A2E975C9E227648B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				130AC58BDC301451B0C2F0BB /* Pods-ATKColor-ATKColor.xcconfig */,
+				719780F7D1BC3A4B0A60A677 /* Pods-ATKColor-ATKColor-Private.xcconfig */,
+				9E7A6954F9C20E0740E5F6B6 /* Pods-ATKColor-ATKColor-dummy.m */,
+				75AE996481E4CB208325E9BF /* Pods-ATKColor-ATKColor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ATKColor-ATKColor";
+			sourceTree = "<group>";
+		};
+		3F34B2A7F67624E1A72660F7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8DA3485098844C00C1C4E12D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		40A71C5B04C030046861E908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36567B34873CE195B30D0F6D /* ATKColor.bundle */,
+				D3F2927B557CA53DD437D02E /* libPods-ATKColor.a */,
+				DE2C00730AD7E7867BF90E90 /* libPods-ATKColor-ATKColor.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40AC466CE5F7FEA0A985B113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F34B2A7F67624E1A72660F7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48A0C2913968636D398F47C2 /* Pods-ATKColor */ = {
+			isa = PBXGroup;
+			children = (
+				E0837CC05504B5FC5FA7A8AE /* Pods-ATKColor-acknowledgements.markdown */,
+				E31110C64F49C55BB8A997E5 /* Pods-ATKColor-acknowledgements.plist */,
+				86DF28AA9F61C8ED4712D2D3 /* Pods-ATKColor-dummy.m */,
+				1B03BCADA40AE6A1D6AFA3B9 /* Pods-ATKColor-environment.h */,
+				744A4821338F8EC35810D308 /* Pods-ATKColor-resources.sh */,
+				0891F997F0EFAB5F7DB4DD36 /* Pods-ATKColor.debug.xcconfig */,
+				57BCC698945DE920D61192C1 /* Pods-ATKColor.release.xcconfig */,
+			);
+			name = "Pods-ATKColor";
+			path = "Target Support Files/Pods-ATKColor";
+			sourceTree = "<group>";
+		};
+		58B27EC068985F44939EF507 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB20287ABEDE733ECC7E0175 /* ATKColor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE89008E18F5707B116D0744 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A0C2913968636D398F47C2 /* Pods-ATKColor */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB20287ABEDE733ECC7E0175 /* ATKColor */ = {
+			isa = PBXGroup;
+			children = (
+				C2F491C61A43C39D005B1F6B /* ATKColor+RGBHex.h */,
+				C2F491C71A43C39D005B1F6B /* ATKColor+RGBHex.m */,
+				26732F32A2E975C9E227648B /* Support Files */,
+			);
+			name = ATKColor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DF8090CD6EF27F815AD500A /* Pods-ATKColor-ATKColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B7FAAB995759BA808B29E3 /* Build configuration list for PBXNativeTarget "Pods-ATKColor-ATKColor" */;
+			buildPhases = (
+				DDFFF77F11869A9E06CF4712 /* Sources */,
+				CD649A41BF198A8D70A38B1A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				501E756F19F40932BA3A5A55 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATKColor-ATKColor";
+			productName = "Pods-ATKColor-ATKColor";
+			productReference = DE2C00730AD7E7867BF90E90 /* libPods-ATKColor-ATKColor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8843612396408FB6805DEDB3 /* ATKColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A89F42641E122622D5BFF5 /* Build configuration list for PBXNativeTarget "ATKColor" */;
+			buildPhases = (
+				0D2F05C76B2AFACC62ABC5C5 /* Sources */,
+				450FA8F1B68C0CE73288AC06 /* Frameworks */,
+				69B2A1F8A312802EBBD07C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATKColor;
+			productName = ATKColor;
+			productReference = 36567B34873CE195B30D0F6D /* ATKColor.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9770DFA39E6DF1BA3B5D789F /* Pods-ATKColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5814E9EEF5B5154BCE4B5530 /* Build configuration list for PBXNativeTarget "Pods-ATKColor" */;
+			buildPhases = (
+				0AE542AA7C6F0CB60F4B3249 /* Sources */,
+				D1B482125801E4E89E6F701D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFC0E08574C1EFC83117D547 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATKColor";
+			productName = "Pods-ATKColor";
+			productReference = D3F2927B557CA53DD437D02E /* libPods-ATKColor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45FC5BED679A69566DE369E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 2A88D078776F3EA92662432D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07DEFF404A7F3AC7E753953C;
+			productRefGroup = 40A71C5B04C030046861E908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8843612396408FB6805DEDB3 /* ATKColor */,
+				9770DFA39E6DF1BA3B5D789F /* Pods-ATKColor */,
+				6DF8090CD6EF27F815AD500A /* Pods-ATKColor-ATKColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69B2A1F8A312802EBBD07C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE542AA7C6F0CB60F4B3249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4169B1FF50D3D6E669506A9F /* Pods-ATKColor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2F05C76B2AFACC62ABC5C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F491C81A43C39D005B1F6B /* ATKColor+RGBHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFFF77F11869A9E06CF4712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA5441B06A52294C557D3C8 /* Pods-ATKColor-ATKColor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		501E756F19F40932BA3A5A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATKColor;
+			target = 8843612396408FB6805DEDB3 /* ATKColor */;
+			targetProxy = C6DCC7470F71F256B5099884 /* PBXContainerItemProxy */;
+		};
+		EFC0E08574C1EFC83117D547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ATKColor-ATKColor";
+			target = 6DF8090CD6EF27F815AD500A /* Pods-ATKColor-ATKColor */;
+			targetProxy = 01B624542150AE38D34737C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D25FEE04E95AD51E7139C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719780F7D1BC3A4B0A60A677 /* Pods-ATKColor-ATKColor-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ATKColor-ATKColor/Pods-ATKColor-ATKColor-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B0C172CA988AFF491817342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BCC698945DE920D61192C1 /* Pods-ATKColor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E069567F3290272EB0C58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		89F0C90A4DF2E49F898740FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D5305E3BFC9C0BD020B58D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B0A618BC935D74A4BCB0E98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E524BB3E108897B953482CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719780F7D1BC3A4B0A60A677 /* Pods-ATKColor-ATKColor-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ATKColor-ATKColor/Pods-ATKColor-ATKColor-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E726E9F786CDD0C28F65C574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0891F997F0EFAB5F7DB4DD36 /* Pods-ATKColor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A88D078776F3EA92662432D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E069567F3290272EB0C58C /* Debug */,
+				89F0C90A4DF2E49F898740FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5814E9EEF5B5154BCE4B5530 /* Build configuration list for PBXNativeTarget "Pods-ATKColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E726E9F786CDD0C28F65C574 /* Debug */,
+				3B0C172CA988AFF491817342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A89F42641E122622D5BFF5 /* Build configuration list for PBXNativeTarget "ATKColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A618BC935D74A4BCB0E98F /* Debug */,
+				9D5305E3BFC9C0BD020B58D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B7FAAB995759BA808B29E3 /* Build configuration list for PBXNativeTarget "Pods-ATKColor-ATKColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D25FEE04E95AD51E7139C9B /* Debug */,
+				E524BB3E108897B953482CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45FC5BED679A69566DE369E1 /* Project object */;
+}

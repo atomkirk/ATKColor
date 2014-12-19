@@ -1,38 +1,15 @@
-#
-# Be sure to run `pod lib lint ATKColor.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "ATKColor"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ATKColor."
-  s.description      = <<-DESC
-                       An optional longer description of ATKColor
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ATKColor"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "Categories and Macros for easily creating UIColor/NSColor from hex values."
+  s.homepage         = "https://github.com/atomkirk/ATKColor"
   s.license          = 'MIT'
   s.author           = { "Adam Kirk" => "atomkirk@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ATKColor.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
-  s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'ATKColor' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source           = { :git => "https://github.com/atomkirk/ATKColor.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/atomkirk'
+  s.platform         = :ios, '7.0'
+  s.requires_arc     = true
+  s.ios.deployment_target = '5.0'
+  s.osx.deployment_target = '10.7'
+  s.source_files     = 'Pod/Classes'
 end

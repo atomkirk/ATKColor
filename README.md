@@ -7,9 +7,9 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+```
+view.backbroundColor = RGBHex(0x3a5b23);
+```
 
 ## Installation
 
@@ -25,4 +25,3 @@ Adam Kirk, atomkirk@gmail.com
 ## License
 
 ATKColor is available under the MIT license. See the LICENSE file for more info.
-

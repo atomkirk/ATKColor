@@ -1,0 +1,14 @@
+PODS:
+  - ATKColor (0.1.0)
+
+DEPENDENCIES:
+  - ATKColor (from `../`)
+
+EXTERNAL SOURCES:
+  ATKColor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ATKColor: c02646f968279c369584830d70524ead9fd1c28f
+
+COCOAPODS: 0.35.0
